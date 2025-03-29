@@ -25,6 +25,18 @@ Language: Swift
 
 Framework: UIKit
 
+**Challenges Faced
+**
+Implementing a dynamic circular progress view on the Home Screen.
+
+Ensuring smooth animations and real-time updates.
+
+**Solutions Suggested
+**
+Using SwiftUI's Circle and Trim: Leveraging SwiftUI’s Circle shape with the .trim modifier to create a smooth and dynamic progress ring.
+
+Core Animation (UIKit): Using CAShapeLayer and CABasicAnimation for an animated circular progress view.
+
 **Installation : 
 **1. Clone the repository: git clone https://github.com/yourusername/nutrak.git
 2. Open Nutrak.xcodeproj in Xcode.
